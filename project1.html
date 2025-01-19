@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Angga Wira Pirmansah</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">gawirrr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-1 fw-bold mb-4">Angga Wira Pirmansah</h1>
+            <h2 class="h3 mb-4">Full Stack Developer & UI/UX Designer</h2>
+            <p class="lead mb-5">Mengubah ide menjadi pengalaman digital yang menakjubkan</p>
+            <a href="#portfolio" class="btn btn-primary btn-lg">Lihat Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="gawir.png" alt="Profile" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="h1 mb-4">Tentang Saya</h2>
+                    <p class="lead">Seorang pengembang web full-stack dengan passion dalam menciptakan solusi digital yang inovatif dan user-friendly.</p>
+                    <p class="mb-4">Dengan pengalaman lebih dari 3 tahun di industri teknologi, saya telah mengembangkan berbagai aplikasi web dan mobile yang membantu bisnis berkembang di era digital.</p>
+                    <a href="https://drive.google.com/file/d/1MyuBEtr83Tygbx1EnV10_bnyc9HjxTS8/view?usp=sharing" class="download-button" download>Download CV</a>
+                    
+                    <h3 class="h4 mb-3">Pendidikan</h3>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2">🎓 S1 Sistem informasi - Universitas Kuningan (2023-NOW)</li>
+                        <li class="mb-2">📚 Bootcamp Front-End Web - Dicoding (2024)</li>
+                        <li class="mb-2">📚 Bootcamp Pemrograman Java-Script - Dicoding (2024)</li>
+                        <li class="mb-2">📚 Bootcamp HTML dan CSS - Dicoding (2024)</li>
+                    </ul>
+
+                    <h3 class="h4 mb-3">Keahlian</h3>
+                    <div class="mb-4">
+                        <span class="badge bg-primary skill-badge">HTML5</span>
+                        <span class="badge bg-primary skill-badge">CSS3</span>
+                        <span class="badge bg-primary skill-badge">JavaScript</span>
+                        <span class="badge bg-primary skill-badge">MySQL</span>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Portfolio Proyek</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4 portfolio-item">
+                <div class="card h-100 shadow">
+                    <img src="ebukumenu.jpg" class="card-img-top project-image" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">E-Resto Platform</h5>
+                        <p class="card-text">Platform e-restoran lengkap dengan sistem pembayaran, manajemen inventori, dan analitik.</p>
+                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Project 1 -->
+            <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project1ModalLabel">E-Resto Platform</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Deskripsi:</strong> Platform e-restoran lengkap dengan sistem pembayaran, manajemen inventori, dan analitik. Website untuk beli minum dan makanan yang siap antar, sedia makanan enak khas restoran dan minuman segar khas coffe shop</p>
+                            <p><strong>Teknologi:</strong> HTML, MySQL, PHP</p>
+                           <video controls="controls" autoplay="autoplay"  alt="E-Commerce" class="img-fluid rounded">
+                            <source src="ebukumenu.mp4" type="video/mp4"/>
+                            your browser does not support the video element.
+                           </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               <!-- Project 2 -->
+               <div class="col-md-6 col-lg-4 portfolio-item">
+                <div class="card h-100 shadow">
+                    <img src="zerovia.jpg" class="card-img-top project-image" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Aplikasi Informasi Obat</h5>
+                        <p class="card-text">Zerovia: Inovasi untuk Informasi Obat yang akurat dan cepat.</p>
+                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Project 2 -->
+            <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project2ModalLabel">Website Nonton Film</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Deskripsi:</strong> Memberikan informasi kesehatan yang akurat kepada pengguna aplikasi, sehingga mereka dapat membuat keputusan yang lebih baik terkait pengobatan atau pencegahan penyakit </p>
+                            <p><strong>Teknologi:</strong> Aplikasi Editor, Figma, UI/UX.</p>
+                           <video controls="controls" autoplay="autoplay"  alt="Project 2" class="img-fluid rounded">
+                            <source src="zerovia.mp4" type="video/mp4"/>
+                            your browser does not support the video element.
+                           </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 portfolio-item">
+                    <div class="card h-100 shadow">
+                        <img src="webnonton.png" class="card-img-top project-image" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Nonton Film</h5>
+                            <p class="card-text">Website Nonton Film Recomendasi</p>
+                            <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">Detail Proyek</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Project 3 -->
+                <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="project3ModalLabel">Website Nonton Film</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Deskripsi:</strong> Website Nonton Film Recomendasi. Cocok untuk kamu yang bingung ingin nonton film, kita memiliki website yang berisi rekomedasi film menarik untuk kamu tonton</p>
+                                <p><strong>Teknologi:</strong> HTML, CSS.</p>
+                               <video controls="controls" autoplay="autoplay"  alt="E-Commerce" class="img-fluid rounded">
+                                <source src="webnonton.mp4" type="video/mp4"/>
+                                your browser does not support the video element.
+                               </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center mb-5">Hubungi Saya</h2>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="needs-validation" novalidate>
+                        <!-- Access Key Web3Forms -->
+                        <input type="hidden" name="access_key" value="8871f756-d767-442d-a9a2-e275637b1295">
+                    
+                        <!-- Field Nama -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                            <div class="invalid-feedback">
+                                Mohon masukkan nama Anda.
+                            </div>
+                        </div>
+                    
+                        <!-- Field Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                            <div class="invalid-feedback">
+                                Mohon masukkan email yang valid.
+                            </div>
+                        </div>
+                    
+                        <!-- Field Pesan -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            <div class="invalid-feedback">
+                                Mohon masukkan pesan Anda.
+                            </div>
+                        </div>
+                    
+                        <!-- Tombol Submit -->
+                        <button type="submit" class="btn btn-primary w-100">Kirim Pesan</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Angga Wira Pirmansah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
